@@ -1,3 +1,0 @@
-abc.txt
-javascript
-mnc.txt
