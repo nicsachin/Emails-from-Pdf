@@ -24,8 +24,7 @@ app.get('/job',(req,res)=>{
     textract.fromFileWithPath('./uploads/data.pdf',{preserveLineBreaks:true}, function( error, text ) {
         if(!error)
         {
-             //console.log(text)
-            const patt = /\w+@\w+.[a-z]{2,3}/gi
+             const patt = /\w+@\w+.[a-z]{2,3}/gi
             let result ;
             let count =0;
             while((result=patt.exec(text))!==null)
@@ -36,9 +35,8 @@ app.get('/job',(req,res)=>{
            writeData.write(all)
             const filename = __dirname+'/result/result.txt'
             res.contentType('text/plain');
-           // res.send('This is the content', { 'Content-Disposition': 'attachment; filename='+filename=});
            res.sendFile(__dirname+'/result/result.txt')
-          //console.log(all)
+
         }
     })
 })
