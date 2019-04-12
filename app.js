@@ -20,7 +20,7 @@ app.post('/',(req,res)=>{
 app.get('/job',(req,res)=>{
    let writeData = fs.createWriteStream('./result/result.txt')
 
-   let all="################\n"
+   let all="################--Email id's generated--###########\n"
     textract.fromFileWithPath('./uploads/data.pdf',{preserveLineBreaks:true}, function( error, text ) {
         if(!error)
         {
