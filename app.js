@@ -43,5 +43,5 @@ app.get('/job',(req,res)=>{
 
 //server
 
-const port = 3000 || process.env.PORT
+const port = 4000 || process.env.PORT
 app.listen(port,()=>console.log('server started'))
