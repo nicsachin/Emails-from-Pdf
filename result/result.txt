@@ -1,14 +1,7 @@
 ################
-1 = afterglowpictures@gmail.com
-2 = service@packtpub.com
-3 = feedback@packtpub.com
-4 = copyright@packtpub.com
-5 = questions@packtpub.com
-6 = stoyan@phpied.com
-7 = something@something.som
-8 = stoyan@phpied.com
-9 = stoyan@phpied.com
-10 = stoyan@phpied.com
-11 = me@example.org
-12 = me@example.org
-13 = author@packtpub.com
+1 = mim@london.edu
+2 = mim@london.edu
+3 = info@internetmarketingacademy.com
+4 = Admissions@horizonsuniversity.org
+5 = mim@london.edu
+6 = mim@london.edu

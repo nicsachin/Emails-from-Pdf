@@ -24,7 +24,7 @@ app.get('/job',(req,res)=>{
     textract.fromFileWithPath('./uploads/data.pdf',{preserveLineBreaks:true}, function( error, text ) {
         if(!error)
         {
-             const patt = /\w+@\w+.[a-z]{2,3}/gi
+             const patt = /\w+.?@\w+.[a-z]{2,3}/gi
             let result ;
             let count =0;
             while((result=patt.exec(text))!==null)
